@@ -95,30 +95,6 @@ camera = cv.VideoCapture(0)  # Try 0 for built-in camera
 - **Output**: 2x2 grid layout with timestamp and cutting guides
 - **Formats**: PNG with transparency support
 
-## 🔍 Troubleshooting
-
-1. **Camera issues**: Check camera index in `main.py` line 13
-2. **Missing files**: Ensure all PNG assets are present
-3. **Poor segmentation**: Improve lighting conditions
-
-## 📝 Academic Context
-
-**Author**: Federica Del Vecchio (N46004430)  
-**Course**: Sistemi Multimediali  
-**Institution**: Università degli Studi di Napoli "Federico II"  
-**Year**: 2022  
-**Language**: Python 3.x
-
-Demonstrates computer vision, AI integration, and real-time image processing for multimedia systems education.
-   python main.py
-   ```
-
-### Camera Configuration
-If the default camera index doesn't work, modify line 13 in `main.py`:
-```python
-camera = cv.VideoCapture(0)  # Try 0 for built-in camera
-```
-
 ## 📈 Usage Examples
 
 ### Fun Photo Session
